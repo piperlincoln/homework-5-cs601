@@ -52,7 +52,7 @@ domReady(function() {
   window.addEventListener('click', (event) => {
     if (!loadedTable) {
       loadedTable = true;
-      getDegrees("./src/my_college_degrees.json");
+      getDegrees("https://raw.githubusercontent.com/piperlincoln/homework-5-cs601/main/src/my_college_degrees.json");
     }
   });
 });
