@@ -1,0 +1,37 @@
+/* Define common colors used in the theme. */
+:root {
+  --dark-pink: #9e0284;
+  --light-pink: #faedf7;
+  --light-purple: #e5b6e4;
+}
+
+/* Define the style for the header. */
+.marginals {
+  background-image: url("../Clouds.png");
+  background-position: center;
+  font-family: optima;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Define the style for the background of the page. */
+.main-page {
+  font-family: optima;
+  text-align: center;
+}
+
+/* Define the style of the table. */
+table {
+  border: 1px solid var(--dark-pink);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  width: 60%;
+}
+th {
+  background-color: var(--light-purple);
+}
+tr,td {
+  background-color: var(--light-pink);
+  padding: 8px;
+}

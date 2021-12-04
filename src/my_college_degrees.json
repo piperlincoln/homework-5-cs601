@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "degree": {
+        "school": "University of Wisconsin Madison",
+        "major": "Engineering Mechanics and Astronautics",
+        "type": "BS",
+        "year": 2020
+      }
+    },
+    {
+      "degree": {
+        "school": "Boston University",
+        "major": "Software Development",
+        "type": "MS",
+        "year": 2022
+      }
+    }
+  ]
+}
